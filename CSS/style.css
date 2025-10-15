@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef6ff;
+  margin: 0;
+  padding: 0;
+  color: #333; 
+}
+
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+header h2 {
+  color: #003366;
+}
+
+nav {
+  background-color: #cde1ff;
+  text-align: center;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.banner {
+  text-align: center;
+  background-color: #000000;
+  padding: 10px;
+}
+.banner img {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto; 
+  max-width: 1200px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; 
+}
+
+.main-content {
+  width: 70%;
+}
+
+
+.sidebar {
+  width: 25%;
+}
+
+
+.main-content h3 {
+  color: #004080;
+  border-bottom: 2px solid #cde1ff;
+  padding-bottom: 10px;
+}
+.main-content h4 {
+  color: #003366;
+  margin-bottom: 5px;
+}
+.main-content .post-meta {
+  font-size: 12px;
+  color: #666;
+  margin-top: 0;
+}
+.main-content p {
+  line-height: 1.6;
+}
+.read-more {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+
+.sidebar h4 {
+  color: #004080;
+  margin-top: 0;
+}
+.sidebar .profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sidebar .profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sidebar .profile p {
+  font-size: 14px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar li {
+  margin-bottom: 10px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #0056b3;
+}
+.sidebar hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #cde1ff;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+  margin-top: 10px;
+}
